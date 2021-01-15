@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     
+    <title>JavaScript Uppgift 1</title>
+</head>
+<body>
+    <div class="page_header">
+        <H1>User Registration</H1>
+    </div>
+    <div class="container">
+        <form id="registration_form" novalidate>
+            <div>
+                <input type="text" id="form_fname" placeholder="First Name" required>
+                <span class="error_form" id="fname_error_message"></span>
+                
+            </div>
+            <div>
+                <input type="text" id="form_lname" placeholder="Last Name" required>
+                <span class="error_form" id="lname_error_message"></span>
+                
+            </div>
+            <div>
+                <input type="email" id="form_email" placeholder="Email Address" required>
+                <span class="error_form" id="email_error_message"></span>
+                
+            </div>
+            <div>
+                <input type="number" id="form_phone" placeholder="Phone Number" required>
+                <span class="error_form" id="phone_error_message"></span>
+                
+            </div>
+            <div>
+                <input type="text" id="form_street" placeholder="Street Address" required>
+                <span class="error_form" id="street_error_message"></span>
+                
+            </div>
+            <div>
+                <input type="number" id="form_postal" placeholder="Postal Code" required>
+                <span class="error_form" id="postal_error_message"></span>
+                
+            </div>
+            <div>
+                <input type="text" id="form_city" placeholder="City" required>
+                <span class="error_form" id="city_error_message"></span>
+                
+            </div>
+            <input type="submit" value="Create User" name="">
+        </form>
+        <div class="container" id="user_list">
+        </div>
+    </div>
+<script type="module" src="script.js"></script>
+</body>
+</html>

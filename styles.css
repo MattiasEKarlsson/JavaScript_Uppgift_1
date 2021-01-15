@@ -1,0 +1,153 @@
+body
+{
+	
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: rgb(2,0,36);
+    background: linear-gradient(276deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
+}
+.page_header{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 2.4rem ;
+	margin-right: auto;
+	margin-left: auto;
+	color: #201e20;
+	z-index: 99;
+	text-shadow: 0 1px 50px;
+}
+.container
+{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	background: rgb(229, 237, 241);
+	padding: 45px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 20px 30px 0;
+}
+.container h1
+{
+	text-align: center;
+	margin: 0 0 40px;
+	padding: 0;
+	color: rgb(136, 138, 141);
+	letter-spacing: 2px;
+}
+.container input
+{
+	padding: 7px;
+	margin-bottom: 1rem;
+	width: 55%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border:2px solid #999;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px 0;
+	
+}
+.container input[type="submit"]
+{
+	
+	font-weight:300;
+	border-radius: 5px;
+	font-size: 20px;
+	height: 40px;
+	cursor : pointer;
+	background: rgb(169, 170, 170);
+	color: rgb(8, 8, 8);
+	margin-bottom: 0;
+	box-shadow: 5px 10px 20px black;
+	
+}
+.container input[type="submit"]:hover
+{
+	background: #616061;
+	color: rgb(36, 35, 35);
+	
+}
+.container form div
+{
+	position: relative;
+}
+/* .container form div label
+{
+	position: absolute;
+	top: 3px;
+	pointer-events: none;
+	left: 0;
+	transition: .5s;
+}
+/* .container input:focus ~label,
+.container input:valid ~label
+{
+	left: 0;
+	top: -20px;
+	color: rgb(66,133,244);
+	font-size: 12px;
+	font-weight: bold;
+} */
+/* .container input:focus,
+.container input:valid
+{
+	border-bottom: 2px solid rgb(66,133,244);
+} */ */
+.error_form
+{
+	top: 12px;
+	color: rgb(216, 15, 15);
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+#user_list{
+	margin-left: 110%;
+	position: absolute;
+	margin-top: 24%;
+	height: 150%;
+	overflow: auto;
+}
+.User{
+	border: 1px solid rgb(88, 86, 86);
+	margin: 0.2rem;
+	border-radius: 5px;
+	padding-left: 0.5rem;
+	background-color: #f7fbfc;
+	box-shadow: 0 20px 30px 0;
+
+}
+
+h2{
+	color: rgb(42, 39, 39);
+	font-size: 1.1rem;
+	
+}
+h2:hover{
+	color: #999;
+	cursor: pointer;
+	
+}
+.UserInfo.displayGrid {
+    display: none;
+}
+
+.gridItem{
+	color: rgb(47, 46, 46);
+	margin: 0.2rem;
+}  
+.deletebtn{
+	border-radius: 2px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.deletebtn:hover{
+	color: #999;
+	cursor: pointer;
+}
+
